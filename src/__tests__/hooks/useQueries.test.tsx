@@ -1,10 +1,6 @@
 import { renderHook, waitFor } from "@testing-library/react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import {
-  useTransactions,
-  useWalletBalance,
-  useUserProfile,
-} from "@/hooks/useQueries";
+import { useTransactions, useWalletBalance, useUserProfile } from "@/hooks/useQueries";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -44,7 +40,7 @@ describe("API Hooks", () => {
     await waitFor(() => expect(result.current.isSuccess).toBe(true));
 
     expect(result.current.data?.first_name).toBe("Olivier");
-    expect(result.current.data?.last_name).toBe("Jones");
-    expect(result.current.data?.email).toBe("olivierjones@gmail.com");
+    expect(result.current.data?.last_name).toBe("James");
+    expect(result.current.data?.email).toBe("olivier@gmail.com");
   });
 });

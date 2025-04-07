@@ -58,8 +58,8 @@ export const handlers = [
       ctx.status(200),
       ctx.json({
         first_name: "Olivier",
-        last_name: "Jones",
-        email: "olivierjones@gmail.com",
+        last_name: "James",
+        email: "olivier@gmail.com",
       })
     );
   }),
