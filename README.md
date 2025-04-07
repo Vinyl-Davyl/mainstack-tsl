@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application enables users to manage financial transactions and track revenue efficiently. Built with React, TypeScript, and Tailwind CSS, it offers a responsive and user-friendly interface.
+This application enables users to manage financial transactions and track revenue efficiently. Built with React, TypeScript, and Tailwind, it offers a responsive and user-friendly interface.
 
 ## Features
 
